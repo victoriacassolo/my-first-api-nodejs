@@ -1,0 +1,19 @@
+{
+  "name": "jobbee",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "nodemon --ignore node_modules src/server",
+    "prod": "SET NODE_ENV=production & nodemon src/server.js"
+  },
+  "dependencies": {
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "http-graceful-shutdown": "^3.1.9"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  }
+}
