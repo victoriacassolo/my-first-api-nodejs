@@ -5,5 +5,4 @@ const App = express();
 
 Routes(App);
 
-
 module.exports = App;
