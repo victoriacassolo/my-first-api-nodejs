@@ -1,0 +1,14 @@
+# FOLDERS
+node_modules
+coverage
+.vscode
+.idea
+
+# FILES
+package-lock.json
+yarn.lock
+.env
+.DS_Store
+globalConfig.json
+kubernetes/jobs-secrets.yaml
+kubernetes/secrets.yaml
